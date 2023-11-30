@@ -1,0 +1,113 @@
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: #161813;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url('https://images.unsplash.com/photo-1504208370980-0010597d8c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by0xMDF8fHw&auto=format&fit=crop&w=1000&q=80');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.form-title {
+    display: flex;
+    color: #fff;
+    font-family: 'roboto slab', serif;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form {
+background-color: #393838;
+padding: 30px 40px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+width: 500px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: white;
+}
+
+input, textarea {
+width: 100%;
+padding: 8px 12px;
+margin-bottom: 16px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+}
+
+input[type="submit"] {
+background-color: #161813;
+color: #fff;
+cursor: pointer;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+font-weight: bold;
+}
+
+input[type="submit"]:hover {
+background-color: rgb(105, 107, 107);
+}
+
+.alert {
+padding: 20px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+border-radius: 8px;
+text-align: center;
+}
+
+.alert-success {
+color: #155727;
+background-color: #d4edda;
+border-color: #c3e6cb;
+}
+
+.alert-success {
+margin-bottom: 20px;
+}
+
+.unduh-pdf-button {
+background-color: #3498db;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+font-weight: bold;
+display: block;
+margin-top: 20px;
+width: 100%;
+cursor: pointer;
+}
+
+.unduh-pdf-button:hover {
+background-color: #2980b9;
+}
+
+.back-btn {
+    background-color: #f74437;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+  }
